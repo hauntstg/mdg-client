@@ -1,0 +1,21 @@
+.product-slider {
+  /* width: 100%; */
+  /* padding: 40px 0; */
+  text-align: center;
+}
+
+.product-box img {
+  width: 260px;
+  /* height: auto; */
+  /* object-fit: contain; */
+  /* display: block; */
+  /* margin: 0 auto; */
+}
+
+.product-box h3 {
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #a00404ff;
+  text-transform: uppercase;
+}

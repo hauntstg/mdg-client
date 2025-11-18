@@ -1,0 +1,27 @@
+.custom-footer {
+  position: static;
+  padding: 0 !important;
+}
+
+.footer-left-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer-container ul {
+  padding: 0;
+}
+
+.footer-left {
+  /* height: 300px; */
+  right: 0;
+}
+
+.footer-right {
+  /* height: 250px; */
+}
+
+.map-container {
+  display: flex;
+  justify-content: end;
+}
