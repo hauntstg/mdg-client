@@ -58,7 +58,7 @@ export default function HomePage() {
           </div>
           <div className="about-us-image">
             <img
-              src="/images/about-us.png"
+              src="/images/final-1.jpg"
               alt="Giới thiệu về Minh Đăng Group"
             />
           </div>
