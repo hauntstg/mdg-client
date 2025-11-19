@@ -15,23 +15,19 @@ const products = [
   },
   {
     name: "BẠCH TUỘC",
-    image: "/images/sanpham/VOZ_0066.JPG",
+    image: "/images/sanpham/mg-bachtuoc.JPG",
   },
   {
     name: "MỰC ỐNG",
     image: "/images/sanpham/VOZ_0067.png",
   },
   {
-    name: "TÔM TẨM BỘT",
-    image: "/images/sanpham/VOZ_0082.png",
-  },
-  {
-    name: "CÁ HỒI",
-    image: "/images/sanpham/VOZ_0140.JPG",
+    name: "CÀNG CUA",
+    image: "/images/sanpham/md-cangcua.JPG",
   },
   {
     name: "CÁ THU",
-    image: "/images/sanpham/VOZ_0157.png",
+    image: "/images/sanpham/VOZ_0140.JPG",
   },
 ];
 
