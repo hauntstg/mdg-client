@@ -23,8 +23,13 @@
 }
 
 /* header wrap right */
+.header-wrap-navbar {
+  padding-right: 20px;
+}
+
 .header-wrap-navbar ul {
   display: flex;
+  justify-content: end;
   line-height: 60px;
   gap: 30px !important;
   width: 100%;

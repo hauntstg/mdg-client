@@ -46,7 +46,7 @@ export default function MainNavigation() {
                   <span>CHỨNG NHẬN</span>
                 </NavLink>
               </li>
-              <li className="drop-down">
+              {/* <li className="drop-down">
                 <NavLink
                   to="/contact"
                   className={({ isActive }) =>
@@ -56,7 +56,7 @@ export default function MainNavigation() {
                 >
                   <span>LIÊN HỆ</span>
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
