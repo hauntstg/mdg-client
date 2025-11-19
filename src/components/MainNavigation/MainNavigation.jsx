@@ -37,7 +37,7 @@ export default function MainNavigation() {
               </li>
               <li className="drop-down">
                 <NavLink
-                  to="/cer"
+                  to="/chung-nhan"
                   className={({ isActive }) =>
                     isActive ? "active" : undefined
                   }

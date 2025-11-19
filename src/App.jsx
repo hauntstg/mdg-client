@@ -4,6 +4,7 @@ import Layout from "./pages/Layout";
 import CreatePostPage from "./pages/CreatePostPage";
 import PostDetail from "./pages/PostDetail";
 import ListPost from "./pages/ListPost";
+import Certificates from "./pages/Certificates";
 import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
           { path: "chi-tiet/:slug", element: <PostDetail /> },
         ],
       },
+      { path: "/chung-nhan", element: <Certificates /> },
     ],
   },
 ]);

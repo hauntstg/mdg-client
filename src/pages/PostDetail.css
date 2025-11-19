@@ -20,3 +20,12 @@
 
 .image-post img {
 }
+
+/* bổ sung css cho thư viện quill (soạn thảo văn bản) */
+.ql-align-center {
+  text-align: center;
+}
+
+.ql-align-justify {
+  text-align: justify;
+}
