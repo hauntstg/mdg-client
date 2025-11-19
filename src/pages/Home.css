@@ -54,6 +54,37 @@ section {
   margin: 0 !important;
 }
 
+.about-us-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-us-image::after {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0) 70%
+  );
+  transform: translate(-100%, -100%);
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    transform: translate(-100%, -100%);
+  }
+  100% {
+    transform: translate(100%, 100%);
+  }
+}
+
 .about-us .about-us-image img {
   border-top-left-radius: 50px;
   width: 100%;
