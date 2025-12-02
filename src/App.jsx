@@ -4,7 +4,9 @@ import Layout from "./pages/Layout";
 import CreatePostPage from "./pages/CreatePostPage";
 import PostDetail from "./pages/PostDetail";
 import ListPost from "./pages/ListPost";
-import Certificates from "./pages/Certificates";
+import Feedback from "./pages/Feedback";
+import FeedbackForm from "./components/Feedback/FeedbackForm";
+import FeedbackDetail from "./components/Feedback/FeedbackDetail";
 import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
@@ -22,7 +24,14 @@ const router = createBrowserRouter([
           { path: "chi-tiet/:slug", element: <PostDetail /> },
         ],
       },
-      { path: "/chung-nhan", element: <Certificates /> },
+      {
+        path: "/goc-tam-su",
+        children: [
+          { index: true, element: <Feedback /> },
+          { path: "gui-tam-su", element: <FeedbackForm /> },
+          { path: "chi-tiet/:feedbackId", element: <FeedbackDetail /> },
+        ],
+      },
     ],
   },
 ]);

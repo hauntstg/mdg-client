@@ -37,13 +37,12 @@ export default function MainNavigation() {
               </li>
               <li className="drop-down">
                 <NavLink
-                  to="/chung-nhan"
+                  to="/goc-tam-su"
                   className={({ isActive }) =>
                     isActive ? "active" : undefined
                   }
-                  end
                 >
-                  <span>CHỨNG NHẬN</span>
+                  <span>GÓC TÂM SỰ</span>
                 </NavLink>
               </li>
               {/* <li className="drop-down">

@@ -1,0 +1,49 @@
+.fb-slider-container {
+  /* position: relative; */
+  width: 80%;
+  margin: auto;
+}
+
+.fb-slider-img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.fb-slider-video {
+  width: 100%;
+  border-radius: 6px;
+  max-height: 600px;
+}
+
+/* Dots */
+.fb-slider-dots {
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+  color: #fff;
+}
+
+.fb-dot {
+  /* height: 14px;
+  width: 14px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.3s; */
+  cursor: pointer;
+  padding: 0 5px;
+  background: #c3c3c3;
+  transition: 0.3s;
+}
+
+.fb-dot.fb-active {
+  background-color: #0076ff;
+  transform: scale(1.2);
+}

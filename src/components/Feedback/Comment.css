@@ -1,0 +1,35 @@
+.comments-item {
+  display: flex;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  border-top: 1px solid #c3c3c3;
+}
+
+.comments-item img {
+  width: 36px;
+  height: 36px;
+  margin-right: 6px;
+}
+
+.comments-item .comments-item__top p {
+  /* margin: 0 !important; */
+}
+
+.comments-item .comments-item__top .comments-item__like {
+  font-size: 12px;
+}
+
+.comments-item__top .comments-item__like-active {
+}
+
+.comments-item__top .comments-item__like-active i {
+  background: #fddde5ff;
+  padding: 3px;
+  border-radius: 50%;
+  color: #fb457c;
+}
+
+.comments-item .comments-item__top .comments-item__like span {
+  cursor: pointer;
+  margin-right: 20px;
+}

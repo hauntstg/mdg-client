@@ -1,0 +1,41 @@
+.fb-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.fb-form input {
+  padding: 10px;
+  height: 40px;
+}
+
+.fb-form-name,
+.fb-form-phoneNumber,
+.fb-form-email,
+.fb-form-title {
+  flex: 1 1 calc(50% - 10px);
+}
+
+.fb-form-content,
+.fb-form-files {
+  flex: 1 1 100%;
+}
+
+.fb-form-name,
+.fb-form-phoneNumber,
+.fb-form-email,
+.fb-form-title,
+.fb-form-content,
+.fb-form-files {
+  display: flex;
+  flex-direction: column;
+}
+
+.fb-form-content {
+  height: 150px;
+}
+
+.fb-form-content textarea {
+  padding: 10px;
+  flex: 1;
+}

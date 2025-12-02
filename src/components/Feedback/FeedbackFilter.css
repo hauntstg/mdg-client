@@ -1,0 +1,73 @@
+.fb-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #c3c3c3;
+}
+
+.fb-filter .fb-filter-title {
+  font-weight: 500;
+  color: #000080;
+  border-bottom: 2px solid #000080;
+}
+
+.fb-filter .fb-filter-item {
+  /* padding-bottom: 10px; */
+  border-bottom: 1px solid #c3c3c3;
+}
+
+.fb-filter .fb-filter-item:last-child {
+  border: 0;
+}
+
+.fb-filter .fb-filter-item p {
+  /* margin: 0 !important; */
+}
+
+.fb-filter .fb-filter-item .fb-filter-item-title {
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.fb-filter .fb-filter-item .fb-filter-item-title:hover {
+  color: #2ba6eeff;
+}
+
+.fb-filter .fb-filter-item .fb-filter-item-date {
+  /* width: 20px;
+  height: 20px;
+  padding: 12px;
+  background-color: #c3c3c3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2ba6eeff;
+  font-size: 12px; */
+  display: flex;
+  align-items: center;
+}
+.fb-filter .fb-filter-item .fb-filter-item-date i {
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+  background-color: #c3c3c3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2ba6eeff;
+}
+
+.fb-filter .fb-filter-item .fb-filter-item-date span {
+  color: #787474ff;
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 6px;
+}

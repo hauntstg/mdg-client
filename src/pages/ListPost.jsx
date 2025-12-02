@@ -25,6 +25,8 @@ export default function ListPost() {
       setError(null);
       try {
         const res = await fetchListPost();
+        // console.log("RES:", res);
+        // console.log("RES.data:", res?.data);
         if (isMounted) {
           setData(res.data);
         }
@@ -50,7 +52,7 @@ export default function ListPost() {
   if (!data.length) return <p>Không có dữ liệu</p>;
 
   return (
-    <div className="news-page">
+    <div className="container news-page">
       <div className="news-page-title">TIN TỨC SỰ KIỆN</div>
       <div className="news-list">
         {data &&
